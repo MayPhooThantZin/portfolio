@@ -1,0 +1,66 @@
+.container-fluid {
+    background-image: linear-gradient(180deg, #f0a9db 0%, #ff6975 100%);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.main-col {
+    margin: 5%;
+    margin-bottom: 2%;
+}
+
+.each-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.each-card .row {
+    margin-top: 3%;
+}
+
+.each-card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6975;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #d43f4b;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul li ul {
+    list-style-type: square;
+}
+
+.text-white {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
